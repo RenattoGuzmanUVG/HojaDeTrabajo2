@@ -1,5 +1,6 @@
 /**
  * Lector
+ * @author Renatto Guzmán
  */
 import java.io.*;
 import java.util.*;
