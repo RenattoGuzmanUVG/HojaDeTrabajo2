@@ -13,32 +13,44 @@ public class Stack<T> implements InterfazStack<T>{
         vector = new Vector<T>();
     }
 
+        /**
+     * 
+     * @return tamaño del vector
+     */
     @Override
     public int count() {
-        // TODO Auto-generated method stub
         return vector.size();
     }
-
+    /**
+     * 
+     * @return si está vacio el vector true, si no false
+     */
     @Override
     public boolean isEmpty() {
-        // TODO Auto-generated method stub
         return vector.isEmpty();
     }
-
+    /**
+     * 
+     * @return T, primera posición del vector
+     */
     @Override
     public T peek() {
-        // TODO Auto-generated method stub
         return vector.get(0);
     }
-
+    /**
+     * 
+     * @return T, el vector sin la primera posición
+     */
     @Override
     public T pull() {
-        // TODO Auto-generated method stub
         return vector.remove(0);    }
 
+    /**
+     * 
+     * @param value valor a meter en el stack
+     */
     @Override
     public void push(T value) {
-        // TODO Auto-generated method stub
         vector.add(0, value);
     }
 

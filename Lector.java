@@ -7,6 +7,11 @@ import java.util.*;
 
 public class Lector {
 
+    /**
+     * Lee el documento de texto con los problemas a resolver
+     * @param archivo
+     * @return texto, arraylist con todas las entradas de problemas a resolver
+     */
     public ArrayList<String> elLector(String archivo) {
 
         String linea;
