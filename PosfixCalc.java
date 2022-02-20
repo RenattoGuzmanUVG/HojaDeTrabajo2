@@ -6,7 +6,7 @@ import java.util.List;
  * Esta clase prepara los atributos y métodos a usar en los cálculos
  * @author Renatto Guzmán
  */
-public class PosfixCalc implements InterfazPosfixCalc{
+public class PosfixCalc implements IPosfixCalc{
 
     Stack<Integer> Stack = new Stack<Integer>();
     boolean tieneNum;

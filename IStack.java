@@ -3,7 +3,7 @@
  * @author moises.alonso
  *
  */
-public interface InterfazStack<T> {
+public interface IStack<T> {
 
     /**
      * 

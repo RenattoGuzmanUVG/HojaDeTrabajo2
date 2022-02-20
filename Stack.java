@@ -5,7 +5,7 @@ import java.util.*;
  * @param <T>
  * @author Renatto Guzmán
  */
-public class Stack<T> implements InterfazStack<T>{
+public class Stack<T> implements IStack<T>{
 
     private Vector<T> vector;
 
@@ -53,6 +53,6 @@ public class Stack<T> implements InterfazStack<T>{
     public void push(T value) {
         vector.add(0, value);
     }
-
+    
     
 }

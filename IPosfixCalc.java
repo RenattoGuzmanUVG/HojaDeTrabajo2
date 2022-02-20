@@ -2,7 +2,7 @@
  * @author moises.alonso
  *
  */
-public interface InterfazPosfixCalc {
+public interface IPosfixCalc {
 
 	/***
 	 * This method is used to evaluate a postfix expression
